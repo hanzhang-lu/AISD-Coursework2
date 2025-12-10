@@ -1,10 +1,10 @@
 ## Additional Dataset: landcover.ai
 
-For the extended experiments in **my context**, I incorporate a new publicly available land-cover classification dataset:
+For the extended experiments in **my context**, I incorporate a new publicly available land-cover dataset:
 
 **landcover.ai** – https://landcover.ai.linuxpolska.com/#fnref:1
 
-For the extended experiments on the **landcover.ai** dataset (https://landcover.ai.linuxpolska.com/#fnref:1),  
+For the extended experiments on the **landcover.ai** dataset,  
 all data preprocessing is implemented in the script:
 
 `preprocess-extra-rgb-data.py`
