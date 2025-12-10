@@ -1,6 +1,19 @@
+## Additional Dataset: landcover.ai
+
+For the extended experiments in **my context**, I incorporate a new publicly available land-cover classification dataset:
+
+**landcover.ai** – https://landcover.ai.linuxpolska.com/#fnref:1
+
+For the extended experiments on the **landcover.ai** dataset (https://landcover.ai.linuxpolska.com/#fnref:1),  
+all data preprocessing is implemented in the script:
+
+`preprocess-extra-rgb-data.py`
+
+This script prepares the landcover.ai images and masks (normalization, resizing, label encoding, and train/val split) so that they can be used directly in the notebooks `Experimentation_extra_datasets-5classes.ipynb` and `Experimentation_extra_datasets-5classes-plus2.ipynb`.
 ### **1. `Experimentation.ipynb`**
 **Reproduction of the original Attention-based U-Net paper**
-
+Paper:"An attention-based U-Net for detecting deforestation within satellite sensor imagery"
+Code Link: https://github.com/davej23/attention-mechanism-unet
 This notebook contains:
 
 - The full implementation of the Attention U-Net architecture.
