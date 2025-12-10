@@ -10,7 +10,7 @@ This notebook contains:
 - Training and validation on the Amazon and Atlantic Forest datasets.
 - Evaluation metrics and visual results.
 
-> **Note:** All model weight files (e.g., `.hdf5`, `.npy`) are omitted because they exceed GitHub’s 100 MB limit.
+> **Note:** All model weight files (e.g., `.hdf5`, `.npy`) are omitted because they exceed GitHub’s limit.
 
 ---
 
@@ -33,6 +33,6 @@ This notebook contains:
 
 - A baseline experiment applying the *original* Attention U-Net architecture to the same `landcover.ai` dataset.
 - Provides direct comparison with the optimized version from the “plus2” notebook.
-- Includes performance metrics, qualitative predictions, and error analysis.
+- Includes performance metrics, qualitative predictions.
 
 ---
